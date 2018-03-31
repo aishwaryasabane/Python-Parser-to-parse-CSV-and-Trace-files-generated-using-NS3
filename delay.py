@@ -147,3 +147,5 @@ print('The AVERAGE DELAY is {}'.format(AverageDelay))
 print('The MAXIMUM DELAY is {}'.format(MaxDelay))
 #print('The TOTAL DELAY is {}'.format(TotalDelay))
 
+#r 19.1814 /NodeList/13/$ns3::Ipv4L3Protocol/Rx(1) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 13 protocol 17 offset (bytes) 0 flags [none] length: 1028 10.1.1.13 > 10.1.1.2) ns3::UdpHeader (length: 1008 49154 > 9) Payload (size=1000)
+#t 19.1814 /NodeList/13/$ns3::Ipv4L3Protocol/Tx(1) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 63 id 13 protocol 17 offset (bytes) 0 flags [none] length: 1028 10.1.1.13 > 10.1.1.2) ns3::UdpHeader (length: 1008 49154 > 9) Payload (size=1000)
